@@ -1,0 +1,271 @@
+table.body{
+	background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/bg.jpg);
+}
+table.nav{
+	background-color: transparent;
+}
+
+.top-nav{
+
+	&__link{
+		text-decoration: underline;
+	}
+
+	&__text{
+		font-size: 11px;
+		padding: 11px 0 8px;
+		margin: 0;
+	}
+}
+
+.main-nav{
+
+	&__item a{
+		color: $body-color !important;
+		font-size: 11px;
+		text-align: right;
+		display: block;
+
+		img{
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+
+}
+
+table.header{
+	background-color: transparent;
+	margin: 32px 0 22px;
+}
+
+.logo{
+	color: #0d7eb4;
+	font-size: 40px;
+	line-height: 1.2;
+
+	small{
+		color: #8c8b89;
+		font-size: 10px;
+		display: block;
+	}
+}
+
+.data-wrapper{
+	text-align: right;
+}
+
+.data{
+	display: inline-block;
+	vertical-align: top;
+	color: #8c8b89;
+	padding: 11px 12px 12px;
+	font-size: 14px;
+	font-weight: 400;
+	background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/data-bg.png);
+	background-repeat: no-repeat;
+
+	img{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 7px;
+	}
+}
+
+.vertical-align{
+	vertical-align: middle;
+}
+
+.aplication{
+	background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/bg-mobi.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+.aplication-inner{
+	text-align: center;
+
+	img{
+		display: inline-block;
+		vertical-align: top;
+		width: 522px;
+		height: 308px;
+	}
+}
+
+.title{
+	color: #656565;
+	font-family: Mission;
+	font-size: 42px;
+	text-align: center;
+	padding: 37px 0;
+}
+
+.btn{
+	text-align: center;
+}
+
+.btn-text{
+	color: white;
+	font-size: 21px;
+	padding: 15px 30px;
+	display: inline-block;
+	background-color: #0875ad;
+	background-image: linear-gradient(to top, #0b7caf 0%, #3ba4e0 100%);
+	border: 1px solid #0e6f8b;
+	box-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+	border-radius: 3px;
+
+
+	&:hover{
+		color: inherit;
+	}
+
+	small{
+		color: #cee7f1;
+		font-size: 12px;
+		display: block;
+		text-align: center;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+	}
+}
+
+.btn-inner{
+
+	background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/button.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	display: block;
+	margin-top: -38px;
+	display: inline-block;
+	width: 298px;
+}
+
+.section{
+
+	a{
+		text-decoration: underline;
+		color: #0881b4;
+	}
+
+	h2{
+		color: #484848;
+	}
+
+	p{
+		color: #bcbcbc;
+		line-height: 1.8;
+	}
+
+}
+
+.mobi-app{
+	padding: 62px 0;
+	padding-left: 30px !important;
+
+	&__img{
+		display: block;
+		margin-left: 34px;
+	}
+}
+
+.web-app{
+	padding-right: 59px !important;
+	background-color: #f4f6f6;
+	padding-bottom: 26px !important;
+
+	h2{
+		padding-top: 115px;
+	}
+
+	img{
+		margin-right: 54px;
+	}
+}
+
+.app-full{
+	padding-left: 36px !important;
+	padding-bottom: 26px !important;
+
+	img{
+		margin-top: 23px;
+		margin-left: 16px;
+
+	}
+
+	h2{
+		padding-top: 142px;
+	}
+}
+
+.section-shadow{
+	background: url(http://adreeua.github.io/assets/project/appmail/assets/img/shadow.png) center center no-repeat;
+}
+
+.list-row{
+	margin-top: 32px;
+	margin-bottom: 56px;
+}
+
+.list{
+
+	img{
+		margin-bottom: 30px;
+		height: 48px;
+	}
+
+	h3{
+		color: #484848;
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	p{
+		color: #bcbcbc;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	a{
+		color: #0881b4;
+		font-size: 12px;
+		text-decoration: underline;
+	}
+}
+
+.separator{
+	background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/separator.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+table.footer{
+	background-color: transparent;
+	background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/bg.jpg);
+
+	p{
+		color: #a2a2a3;
+		font-size: 11px;
+	}
+
+}
+
+.footer{
+	&__text{
+		padding-top: 26px;
+		padding-bottom: 19px;
+		text-align: center;
+
+	}
+
+	a{
+		text-decoration: underline;
+		color: #7d7d7d;
+	}
+
+	&__copy{
+		text-align: center;
+		padding-bottom: 54px;
+	}
+}
